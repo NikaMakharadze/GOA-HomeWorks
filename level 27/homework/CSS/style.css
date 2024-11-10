@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: gray;
+}
+
+/* ul lists */
+
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+/* ol list */
+ol {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+}
+
+
+/* form */
+
+body, button {
+    font-family: "DynaPuff";
+}
+
+button {
+    background-color: #52b9d0;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    transition: background-color 0.3s;
+}
+
+input[type="text"], input[type="number"], input[type="password"] {
+    width: 100%;
+    border: 1px solid;
+    font-size: large;
+}
+
+input::placeholder {
+    color: #727070;
+}

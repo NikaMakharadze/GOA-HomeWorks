@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Itim&family=Noto+Sans+Georgian:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Itim&family=Kablammo&family=Noto+Sans+Georgian:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Itim&family=Kablammo&family=Noto+Sans+Georgian:wght@100..900&display=swap');
+
+/* fonts */
+#p1 {
+    font-family: "Dancing Script", cursive, sans-serif;
+}
+
+#p2 {
+    font-family: "Kablammo", cursive, sans-serif;
+}
+
+#p3 {
+    font-family: "Itim", cursive, sans-serif;
+}
+
+/* link 1 */
+
+.link1 {
+    color: black; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.link1:visited {
+    color: black; 
+}
+
+.link1:hover {
+    color: rgb(95, 194, 219); 
+    font-weight: bold; 
+    font-family: "Itim", cursive, sans-serif;
+}
+
+/* link 2 */
+
+.link2 {
+    color: black; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.link2:visited {
+    color: black; 
+}
+
+.link2:hover {
+    color: rgb(95, 219, 151); 
+    font-weight: bold; 
+    font-family: "Dancing Script", cursive, sans-serif;
+}
+
+/* Button */
+
+button {
+    color: red;
+    transition: color 0.3s;
+}
+
+button:hover {
+    color: blue;
+}
+
+button:active {
+    color: green;
+}
