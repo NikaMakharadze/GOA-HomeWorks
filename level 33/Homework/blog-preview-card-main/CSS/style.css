@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Georgian&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Figtree";
+}
+
+.conteiner {
+    width: 25%;
+    height: 70vh;
+    border: solid 3px;
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 15px 15px 5px;
+}
+
+#thunbnail {
+    padding: 25px 25px 0px 25px;
+    width: 100%;
+}
+
+#learning {
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    background-color: hsl(47, 88%, 63%);
+    margin: 25px;
+}
+
+#p-date {
+    padding: 0px 25px 25px 25px;
+    font-weight: bold;
+}
+
+h1 {
+    padding: 0px 25px 25px 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#p-text {
+    padding: 0px 25px 25px 25px;
+    color: hsl(0, 0%, 42%);
+}
+
+#p-footer {
+    padding: 0px 25px 25px 25px;
+    font-weight: bold;
+}
+
+
+#logo {
+    padding: 0px 25px 0px 25px;
+    width: 20%;
+}
+
+#p-footer {
+    display: flex;
+    position: absolute;
+    top: 680px;
+    right: 1000px;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
