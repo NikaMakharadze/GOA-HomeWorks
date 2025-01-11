@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Georgian&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+Georgian&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Big Shoulders Display";
+}
+
+.div1, .div2, .div3 {
+    display: flex;
+    width: 25%;
+    height: 80vh;
+    padding: 45px;
+}
+
+.div1 {
+    border-radius: 15px 0px 0px 15px;
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+.div2 {
+    background-color: hsl(184, 100%, 22%);
+
+}
+
+.div3 {
+    border-radius: 0px 15px 15px 0px;
+    background-color: hsl(179, 100%, 13%);
+}
+
+#icon1, #icon2, #icon3 {
+    display: flex;
+    position: absolute;
+}
+
+h1 {
+    color: #f2f2f2;
+    display: flex;
+    padding: 80px 0px 0px 0px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: "Lexend Deca";
+    display: flex;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 160px 0px 0px 0px;
+    position: relative;
+    right: 80px;
+}
+
+#p2 {
+    font-family: "Lexend Deca";
+    display: flex;
+    padding: 160px 0px 0px 0px;
+    position: relative;
+    right: 55px;
+}
+
+button {
+    font-family: "Lexend Deca";
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 130px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+#btn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+#btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+#btn1:active {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+    border: solid 3px;
+}
+
+#btn2:active {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+    border: solid 3px;
+}
+
+#btn3:active {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%);
+    border: solid 3px;
+}

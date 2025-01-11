@@ -1,0 +1,98 @@
+body {
+    background-color: #0f0f0f;
+}
+/* 2) შექმენით კვადრატი რომელზეც მაუსის მიტანის შემდეგ ის გახდება წრე და გადაადგილდება 50px'ით მარჯვნივ */
+
+.div1 {
+    width: 300px;
+    height: 300px;
+    border: solid 3px;
+    border-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.div1:hover {
+    border-radius: 255px;
+    transform: translate(50px);
+}
+
+/* 3) შექმენით წრე რომელზეც დაჭერის დროს ის გაწითლდება და გადაადგილდება 100px'ით ქვემოთ */
+
+.div2 {
+    width: 300px;
+    height: 300px;
+    border: solid 3px;
+    border-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.div2:active {
+    border-radius: 255px;
+    transform: translate(0px, 100px);
+    border-color: red;
+}
+
+/* 4) შექმენით კვადრატი რომელზეც მაუსის მიტანისას ის დატრიალდება 360 გრადუსით საათის ისრის მიმართულების საწინააღმდეგოდ */
+
+.div3 {
+    width: 300px;
+    height: 300px;
+    border: solid 3px;
+    border-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.div3:hover {
+    transform: rotate(-360deg);
+    border-color: red;
+}
+
+/* 5) შექმენით კვადრატი რომელზეც მაუსის მიტანისას ის გაიზრდება 2'ჯერ */
+
+.div4 {
+    width: 300px;
+    height: 300px;
+    border: solid 3px;
+    border-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.div4:hover {
+    transform: scale(2);
+    border-color: red;
+}
+
+/* 6) შექმენით კვადრატი რომელზეც მაუსის მიტანისას ის გადაიწევს მარცხნივ 10px'ით, დატრიალდება 100 გრადუსით საათის ისრის მიმართულებით და  დაპატარავდება ორჯერ */
+
+.div5 {
+    width: 300px;
+    height: 300px;
+    border: solid 3px;
+    border-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.div5:hover {
+    transform: translateX(-10px) rotate(100deg) scale(0.5);
+    border-color: red;
+}
