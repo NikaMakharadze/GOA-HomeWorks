@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #ecf2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hanken Grotesk", serif;
+}
+
+main {
+    width: 550px;
+    height: 350px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+section {
+    width: 50%;
+}
+
+/* first section */
+
+section:nth-child(1) {
+    padding: 30px;
+    background-color: #5c3dfa;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#result-p {
+    font-size: 18px;
+}
+
+.result-div {
+    width: 120px;
+    height: 120px;
+    background-color: #4729d7;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.result-div span {
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
+
+.result-div p {
+    font-size: 14px;
+    color: #cec8ff;
+}
+
+h1 {
+    color: white;
+}
+
+section:nth-child(1), p:nth-child(3) {
+    font-size: 15px;
+    color: #cec8ff;
+}
+
+/* second section */
+
+section:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h2,.summary-div, button {
+    width: 80%;
+}
+
+.summary-div {
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.results {
+    margin-left: 50px;
+    color: #a6a3a7;
+}
+
+.results span {
+    color: #40435c;
+    font-weight: 600;
+}
+
+button {
+    background-color: #303b59;
+    color: #edf9ff;
+    width: 220px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+button:active {
+    background-color: #4937f3;
+    transform: scale(0.98);
+}
