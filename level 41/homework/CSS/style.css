@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    height: 100vh;
+}
+
+span {
+    color: #f0dc4e;
+}
+
+img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 300px;
+    }
+}
