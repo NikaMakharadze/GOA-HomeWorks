@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="conteiner">
+            <h1>Registration</h1>
+            <form id="reg-form">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" required> <br><br>
+
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age"> <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required> <br><br>
+
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass" required> <br><br>
+
+                <input type="radio" name="gender" id="male" value="male" required>
+                <label for="male">male</label>
+                <input type="radio" name="gender" id="female" value="female" required>
+                <label for="female">Female</label> <br><br>
+                
+                <label for="country">Country</label>
+                <select name="country" id="country" required>
+                    <option value="">Select your country</option>
+                    <option value="US">United States</option>
+                    <option value="GEO">Georgia</option>
+                    <option value="Other">Other</option>
+                </select> <br><br>
+
+                <label for="#">Agre <span id="terms"><a href="#">Terms</a></span> of <span id="service"><a href="#">Service</a></span></label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+
+                <input type="submit" name="submit" id="submit">
+            </form>
+            
+            <div id="age-message">
+                Sorry, this page is not for kids! 😜
+            </div>
+        </div>
+    </main>
+    <script src="./JS/script.js"></script>
+</body>
+</html>

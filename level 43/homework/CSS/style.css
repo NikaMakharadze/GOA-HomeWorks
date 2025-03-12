@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(33, 33, 33);
+    color: white;
+
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteiner {
+    width: 300px;
+    height: 600px;
+    border: solid 3px white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#terms, #service {
+    color: blue;
+    cursor: pointer;
+}
+
+#age-message {
+    display: none;
+
+    z-index: 1000;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
