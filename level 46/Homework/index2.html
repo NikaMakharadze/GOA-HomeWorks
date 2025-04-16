@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1 id="h1"></h1>
+        <button id="btn">Click me</button>
+        <script>
+            const btn = document.getElementById("btn");
+            const h1 = document.getElementById("h1");
+
+            btn.addEventListener("click", function () {
+                h1.textContent = "თქვენ მოხვდით გოაში";
+            })
+        </script>
+    </body>
+</html>
